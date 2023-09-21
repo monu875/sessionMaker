@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyromod import listen
 
-from sessionMaker.settings import BasicSettings
+from sessionMaker.sample_setting import BasicSettings
 
 
 # Init bot session
