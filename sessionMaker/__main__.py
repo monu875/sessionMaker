@@ -1,4 +1,4 @@
-from sessionMaker import sessionCli
+from sessionMaker import sessionMaker
 
 if __name__ == '__main__':
-    sessionCli.run()
+    sessionMaker.run()
