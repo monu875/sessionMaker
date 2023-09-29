@@ -13,8 +13,8 @@ START_MESSAGE = (
         'If something happens to your account, we aren\'t responsible for it.\n\n'
         'If you want to host your own bot then here is the github repo under the terms of the [GNU General Public License v3.0](https://github.com/meanii/sessionMaker/blob/master/LICENSE).\n'
         '> https://github.com/meanii/sessionMaker\n\n'
-        'News channel: @spookyanii\n'
-        'Support chat: @nina77chat' 
+        'Owner: @Leo_Memlon\n'
+        'Support chat: @LeoBotsUpdate' 
     )
 
 KEYBOARD = InlineKeyboardMarkup(
