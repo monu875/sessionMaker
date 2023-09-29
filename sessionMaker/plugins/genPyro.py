@@ -30,7 +30,7 @@ async def pyroGen(sessionCli, callback_data):
     API_ID = await sessionCli.ask(
         chat_id=user_id,
         text=(
-            'Send me your `API_ID` you can find it on my.telegram.org after you logged in.'
+            'Send me your `API_ID` you can find it on my.telegram.org after you logged in,e.g. 16818625 '
         )
     )
     if not (
@@ -46,7 +46,7 @@ async def pyroGen(sessionCli, callback_data):
     API_HASH = await sessionCli.ask(
         chat_id=user_id,
         text=(
-            'Send me your `API_HASH` you can find it on my.telegram.org after you logged in.'
+            'Send me your `API_HASH` you can find it on my.telegram.org after you logged in.e.g 38fb061efb9e27b865f6923d2bb03e49 '
         )
     )
     
@@ -54,7 +54,7 @@ async def pyroGen(sessionCli, callback_data):
     PHONE = await sessionCli.ask(
         chat_id=user_id,
         text=(
-            'Now send me your `phone number` in international format or your `bot_token`'
+            'Now send me your `phone number` in international format +91........ with '
         )
     )    
     if str(PHONE.text).startswith('+'):
@@ -95,7 +95,7 @@ async def pyroGen(sessionCli, callback_data):
         ASK_CODE = await sessionCli.ask(
             chat_id=user_id,
             text=(
-                'send me your code in the format `1-2-3-4-5` and not `12345`'
+                'send me your code in the format `1-2-3-4-5` Or '12-3-45' and not `12345`'
             )
         )
 
